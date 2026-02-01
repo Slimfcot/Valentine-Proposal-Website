@@ -25,13 +25,16 @@ This project works completely offline (locally) and can also be hosted online ea
 ```
 Valentine-Proposal-Website/
 │
-├── index.html
+├── assets/
+│   └── qr/
+│       └── song-qr.png
+│
+├── favicon/
 ├── css/
-│   └── style.css
 ├── js/
-│   └── script.js
+├── index.html
 └── README.md
- |___favicon
+
 ```
 
 ---
