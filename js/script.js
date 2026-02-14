@@ -121,7 +121,7 @@ class ParticleSystem {
 class FloatingHeartsManager {
     constructor(container) {
         this.container = container;
-        this.hearts = ['❤️', '💕', '💖', '💗', '💝', '💘', '💓', '💞'];
+        this.hearts = ['♥️', '💕', '💖', '💗', '💝', '💘', '💓', '💞'];
         this.active = true;
         
         this.start();
@@ -485,7 +485,7 @@ class ValentineApp {
                 SparkleEffect.create(rect.left + rect.width/2, rect.top + rect.height/2, 15);
                 
                 // Show sweet message
-                this.showToast('Sweet like your smile! 🍫');
+                this.showToast('Sweet Just like your adorable laugh! 🍫');
             });
         });
     }
